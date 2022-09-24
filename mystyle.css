@@ -1,15 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
 body {
     background-color: rgb(46, 45, 45);
 }
 header {
     background-color: rgb(117, 114, 114);
 }
-nav {
+.navbar {
     width: 100%;
     background-color: rgb(61, 61, 61);
+    color: white;
     display: flex;
-    justify-content: space-between;
+    padding: 1%;
+
 }
+
+
+
+.logo {
+    width: 10%;
+}
+
+.logo-size {
+    width: 100%;
+}
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+.menu > div {
+
+}
+
+
+
 
 
 h1 {
@@ -37,3 +68,4 @@ background-color: blueviolet;
     width: 15%;
     background-color: rgb(213, 188, 237);
 }
+
