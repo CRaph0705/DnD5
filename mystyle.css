@@ -5,28 +5,38 @@
 }
 
 
-body {
-    background-color: rgb(46, 45, 45);
+body, html {
     height: 100%;
+}
+  
+  .parallax {
+    /* The image used */
+    background-image: url('img_parallax.jpg');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 header {
     background-color: rgb(117, 114, 114);
 }
+
+/* --------------------navbar----------------------- */
 .navbar {
     width: 100%;
     background-color: rgb(61, 61, 61);
     color: white;
     display: flex;
     padding: 1%;
-
 }
-
-
-
 .logo {
     width: 10%;
 }
-
 .logo-size {
     width: 100%;
 }
@@ -36,56 +46,15 @@ header {
     width: 100%;
     align-items: center;
 }
-.menu > div {
-
-}
-
-
-
-
-
-h1 {
-    color: white;
-    box-shadow: ;
-}
-p {
+.menu a {
     color: white;
 }
-
-a {
-    color: white;
-}
-
-
-
-
-
-/* ------------------ banniere drow --------------
-.flag {
-    width: 15%;
-    background-color: #28013f;
-    background-image: url(assets/drowBannerf.webp);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: center;
-    /* position: fixed;
-}*/
-
- 
-
-
-/* main {
-    display: flex;
-    justify-content: center;
-} */
-
-
-
+/* ------------------------navbar------------------------- */
 
 .parallax {
     /* The image used */
     background-image: url("assets/cropped_DnDMonsterManuelExpandedCover.jpeg");
-    background-size: 50%;
+    background-size: 100%;
     margin-top: 100px;
   
     /* Set a specific height */
@@ -103,24 +72,5 @@ a {
     height: 100%;
     /* height: 100vh; */
 /* background-color: blueviolet; */
-}
-
-
-.corpus > p {
-    color:white
-}
-
-
-
-
-
-
-footer {
-    margin: 0;
-    padding: 0;
-}
-.bannerimg {
-    height: 100vh;
-    width: 100%;
 }
 
