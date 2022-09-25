@@ -65,20 +65,27 @@ main {
 background-color: blueviolet;
 }
 #paladinPortrait {
-    height: 100%;
+    height: 100vh;
 }
 .corpus > p {
     color:white
 }
 .flag {
     width: 15%;
-    background-color: rgb(213, 188, 237);
-    height: 100vh;
-    margin: 0;
-    padding: 0;
+    background-color: #28013f;
+    background-image: url(assets/drowBannerf.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: center;
+    position: fixed;    
 }
+
 
 footer {
     margin: 0;
     padding: 0;
+}
+.bannerimg {
+    height: 100vh;
+    width: 100%;
 }
